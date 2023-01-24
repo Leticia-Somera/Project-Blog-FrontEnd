@@ -1,5 +1,5 @@
 import React from 'react';
-import '../blog.css';
+import '../styles/blog.css';
 
 const FeaturedPost = ({imageUrl, title, updatedAt, body, blogLink, width, height}) => {
     return (
