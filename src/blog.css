@@ -92,3 +92,8 @@
 .blog-post-details p {
   color: var(--oxford-color-gray);
 }
+
+.blog-button {
+  display: flex;
+  background-color: red;
+}

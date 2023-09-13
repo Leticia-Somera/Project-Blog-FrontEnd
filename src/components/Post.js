@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../styles/blog.css";
 
 const Post = ({post, onEdit, index}) => {
     return (
@@ -18,7 +19,9 @@ const Post = ({post, onEdit, index}) => {
                 <p>{post.body}</p>
                 <Link to={`post/${index}`}>Read more...</Link>
             </div>
-            <button onClick={() => onEdit()}>Edit</button>
+            <div className="blog-button">
+                <button onClick={() => onEdit()}>Edit</button>
+            </div>
         </div>
     );
 }
